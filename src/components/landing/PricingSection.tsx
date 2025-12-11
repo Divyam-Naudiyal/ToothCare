@@ -57,7 +57,7 @@ function PricingSection() {
                 <div className="space-y-3">
                   <h3 className="text-2xl font-bold">Free</h3>
                   <div className="flex items-end gap-1">
-                    <span className="text-4xl font-bold">INR 0</span>
+                    <span className="text-4xl font-bold">$0</span>
                     <span className="text-muted-foreground mb-1">/month</span>
                   </div>
                   <p className="text-muted-foreground">Key Dental Scheduling</p>
@@ -105,7 +105,7 @@ function PricingSection() {
                   <h3 className="text-2xl font-bold">Basic AI Plan</h3>
                   <div className="flex items-end gap-1">
                     <span className="text-4xl font-bold bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
-                      $5.5 (INR 499)
+                      $5.5
                     </span>
                     <span className="text-muted-foreground mb-1">/month</span>
                   </div>
@@ -153,7 +153,7 @@ function PricingSection() {
                 <div className="space-y-3">
                   <h3 className="text-2xl font-bold">Pro AI Plan</h3>
                   <div className="flex items-end gap-1">
-                    <span className="text-4xl font-bold">INR 1199</span>
+                    <span className="text-4xl font-bold">$13</span>
                     <span className="text-muted-foreground mb-1">/month</span>
                   </div>
                   <p className="text-muted-foreground">Unlimited AI Dental Help And Guidance</p>
