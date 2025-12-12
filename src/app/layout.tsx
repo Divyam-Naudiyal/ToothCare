@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+import UserSync from "@/components/UserSync";
+import { Toaster } from "sonner";
 import TanStackProvider from "@/components/providers/TanStackProvider";
-
 import {
   ClerkProvider
 } from '@clerk/nextjs'
@@ -48,6 +48,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased dark`}
       >
+        <Toaster />
         {children}
       </body>
     </html>
